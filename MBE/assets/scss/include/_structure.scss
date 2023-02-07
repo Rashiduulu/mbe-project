@@ -1,0 +1,127 @@
+.structure-bg {
+  background: $beige-500;
+  height: 556px;
+  position: relative;
+  top: -286px;
+  color: $white;
+  @media screen and (max-width: 480px) {
+    height: 185px;
+    top: -104px;
+  }
+}
+.structure__first {
+  a .structure__first-two :hover + .structure-hoverImg {
+    display: block;
+  }
+}
+
+.structure__first,
+.structure__second,
+.structure__third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  @media screen and (max-width: 480px) {
+    font-size: 5.92026px;
+    line-height: 7px;
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+.structure__first-line,
+.structure__second-line,
+.structure__third-line {
+  background: $white;
+  height: 1px;
+}
+.structure__first-line {
+  width: 154px;
+
+  @media screen and (max-width: 480px) {
+    width: 46px;
+  }
+}
+.structure__second-line {
+  width: 100px;
+  @media screen and (max-width: 480px) {
+    width: 29px;
+  }
+}
+.structure__third-line {
+  width: 40px;
+  @media screen and (max-width: 480px) {
+    width: 12px;
+  }
+}
+.structure__first-one,
+.structure__first-two,
+.structure__first-three {
+  border: 2px solid $white;
+  border-radius: 5px;
+  padding: 15px;
+  @media screen and (max-width: 480px) {
+    border: 0.5px solid $white;
+    border-radius: 1.4px;
+    padding: 4px;
+  }
+}
+.structure__second-one,
+.structure__second-two,
+.structure__second-three {
+  border: 2px solid $white;
+  border-radius: 5px;
+  padding: 15px;
+  @media screen and (max-width: 480px) {
+    border: 0.5px solid $white;
+    border-radius: 1.4px;
+    padding: 4px;
+  }
+}
+.structure__second-one,
+.structure__second-three {
+  width: 253px;
+  @media screen and (max-width: 480px) {
+    width: 74px;
+  }
+}
+.structure__third-one,
+.structure__third-two,
+.structure__third-three,
+.structure__third-four,
+.structure__third-five {
+  border: 2px solid $white;
+  border-radius: 5px;
+  width: 210px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 480px) {
+    border: 0.5px solid $white;
+    border-radius: 1.4px;
+    padding: 4px;
+    width: 61px;
+    height: 29px;
+  }
+}
+.structure__title__h {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 46px;
+  @media screen and (max-width: 480px) {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    padding-top: 13px;
+  }
+}
+
+.structure-hoverImg {
+  display: none;
+}

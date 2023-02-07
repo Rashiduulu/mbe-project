@@ -1,0 +1,137 @@
+.footer-bgHotel{
+  background: $beige-500;
+  position: relative;
+  height: 424px;
+  top: -349px;
+  background-image: url('../img/footerlogo.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  @media screen and (max-width: 30rem){
+    background-image: none;
+    background: $dark-100;
+    top: -131px;
+  }
+}
+.footer{
+  display: flex;
+  color: $white;
+  gap: 210px;
+  padding-top: 54px;
+  @media screen and (max-width: 30rem){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.footer-logo{
+  &__img{
+    width: 210px;
+    height: 112px;
+    @media screen and (max-width: 30rem){
+      width: 118px;
+      height: 58px;
+    }
+
+
+  }
+  
+}
+.footer-menu{
+  @media screen and (max-width: 30rem){
+    display: flex;
+    gap: 5px !important;
+    position: relative;
+    left: 55%;
+    top: -105px;
+
+  }
+
+}
+.footer-menu__list{
+  display: flex;
+  flex-direction: column;
+  gap: .875rem;
+  padding-top: 25px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  
+
+}
+.footer-contacts__items{
+  @media screen and (max-width: 30rem){
+    display: flex;
+    gap: 10%;
+    position: relative;
+
+  }
+}
+.footer-contacts{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  @media screen and (max-width: 30rem){
+    position: relative;
+    top: -100px;
+    margin-left: 5px !important;
+  }
+  &__title{
+    font-family: 'TTNormsPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 30rem){
+
+    font-size: 28px !important;
+line-height: 32px !important;}
+margin-bottom: 18px !important;
+  }
+  &__subtitle{
+    font-family: 'TTNormsPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    margin-bottom: 14px;
+    @media screen and (max-width: 30rem){
+
+    font-weight: 400;
+font-size: 15px !important;
+line-height: 18px !important;}
+  }
+  &__number{
+    font-family: 'TTNormsPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    margin-bottom: 20px;
+    @media screen and (max-width: 30rem){
+    font-size: 16px !important;
+    margin-bottom: 4px !important;
+  }
+}}
+.disclaimer{
+  color: $white;
+  text-align: center;
+  margin-top: 40px;
+  &__info{  
+    font-family: 'TTNormsPro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    @media screen and (max-width: 30rem){
+      position: relative;
+      top: -125px;
+    }
+
+  }
+
+}

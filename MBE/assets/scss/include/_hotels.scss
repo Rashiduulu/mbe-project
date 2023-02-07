@@ -1,0 +1,112 @@
+.hotels-bg {
+  background: $dark-100;
+  color: $white;
+  position: relative;
+  top: -348px;
+  @media screen and (max-width: 30rem) {
+    top: -131px;
+  }
+}
+.hotels {
+  &__title {
+    font-family: "TTNormsPro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    @media screen and (max-width: 30rem) {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+}
+.even {
+  flex-direction: row-reverse;
+  margin-top: 100px;
+  @media screen and (max-width: 30rem) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: unset;
+  }
+}
+.hotels__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  @media screen and (max-width: 30rem) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  &__desc {
+    background: $beige-500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 60px;
+  }
+  &__desc-title {
+    font-family: "TTNormsPro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    @media screen and (max-width: 30rem) {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+  &__desc-p {
+    margin-top: 20px;
+    font-family: "TTNormsPro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    width: 518px;
+    @media screen and (max-width: 30rem) {
+      font-size: 18px;
+      line-height: 22px;
+      width: 346px;
+    }
+  }
+}
+.lastOne {
+  margin-top: 100px;
+  padding-bottom: 146px;
+  @media screen and (max-width: 30rem) {
+    padding-bottom: unset !important;
+  }
+}
+.hotels__info__imgs-img {
+  position: relative;
+  z-index: 1;
+  width: 674px;
+  height: 435px;
+  @media screen and (max-width: 30rem) {
+    width: 390px;
+    height: 300px;
+  }
+}
+.hotels__info__desc-more {
+  border: 2px solid #f5f5f5;
+  border-radius: 5px;
+  font-family: "TTNormsPro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 12px 18px;
+  margin-top: 20px;
+}

@@ -1,0 +1,165 @@
+.mission{
+  position: relative;
+  top: -289px;
+  @media screen and (max-width: 480px){
+    top: -104px;
+  }
+}
+.mission-items{
+display: flex;
+@media screen and (max-width: 30rem){
+  display: none;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+&__info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $white;
+  background: $beige-500;
+  width: 50%;
+  @media screen and (max-width: 480px){
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  h2{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    @media screen and (max-width: 480px){
+      font-size: 24px;
+      line-height: 29px;}
+  }
+  }
+  p{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    width: 528px;
+    margin-top: 24px;
+    @media screen and (max-width: 480px){
+    font-size: 18px;
+    line-height: 22px;
+    width: 340px;
+    margin-top: 16px;}
+  }
+}
+.mission-bg{
+  background-image: url('../img/team1.png');
+  height: 327px;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (max-width: 480px){
+    width: 100%;
+    background-position: center;
+    padding-bottom: 20px;
+  }
+
+}
+
+.mission-items-second{
+  display: flex;
+  @media screen and (max-width: 30rem){
+    display: none;
+    flex-direction: column;
+  }
+  &__info-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $white;
+    background: $beige-500;
+    width: 50%;
+    @media screen and (max-width: 480px){
+      width: 100%;
+    }
+    h2{
+      display: flex;
+      align-items: flex-start;
+      font-family: 'TT Norms Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      @media screen and (max-width: 480px){
+        font-size: 24px;
+        line-height: 29px;}
+    }
+    p{
+      font-family: 'TT Norms Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+      width: 528px;
+      margin-top: 24px;
+      @media screen and (max-width: 480px){
+        font-size: 18px;
+        line-height: 22px;
+        width: 340px;
+        margin-top: 16px;
+      padding-bottom: 20px;}
+    }
+  }}
+  .mission-bg-two{
+    background-image: url('../img/team2.png');
+    height: 327px;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media screen and (max-width: 480px){
+      width: 100%;
+      background-position: center;
+    }
+  
+  }
+.mission__adaptive{
+  display: none;
+  @media screen and (max-width: 480px){
+    display: flex;
+    flex-direction: column;
+    background: $beige-500;
+    padding-bottom: 30px;
+  }
+}
+.mission-bg-twoA{
+  img{
+
+  
+  width: 100%;
+}}
+.mission-items-second__info-twoA{
+display: none;
+  @media screen and (max-width: 480px){
+    width: 100%;
+  }
+  h2{
+
+    @media screen and (max-width: 480px){
+      font-size: 24px;
+      line-height: 29px;}
+  }
+  p{
+
+    @media screen and (max-width: 480px){
+      font-size: 18px;
+      line-height: 22px;
+      width: 340px;
+      margin-top: 16px;
+    padding-bottom: 20px;}
+  }
+}

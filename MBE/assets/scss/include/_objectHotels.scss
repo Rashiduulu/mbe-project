@@ -1,0 +1,85 @@
+.objects-bg{
+  background: $dark-100;
+  color: $white;
+  position: relative;
+  top: -286px;
+  padding-bottom: 130px;
+  @media screen and (max-width: 480px){
+    top: -104px;
+    padding-bottom: 100px;
+  }
+
+}
+.objects .slider__item{
+  display: flex;
+  margin: 4px 40px;
+  align-items: start;
+  justify-content: start;
+} 
+
+
+.objects .slider__item__city::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 0;
+  height: 0.125rem;
+  background: $beige-300;
+  transition: 0.6s all;
+}
+.objects .slider__item__city:hover::before {
+  width: 100%;
+}
+.objects .slider__item__city{
+  color: $white;
+  font-size: 28px;
+  line-height: 34px;
+  position: relative;
+  @media screen and (max-width: 480px){
+
+  font-size: 18px;
+line-height: 22px;}
+  cursor: pointer;
+:hover{
+  color: $white;
+
+}}
+.slider__item__city{
+  :hover{
+    color: $white;
+  
+  }
+
+}
+
+.objects .slick-arrow{
+  font-size: 0;}
+
+.objects .slick-list{
+  overflow: hidden;
+  @media screen and (max-width: 480px){
+    margin: 0px 24px;
+  }
+}
+
+.objects .slick-track{
+    display: flex;
+    align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  left: 15%;
+  color: $white;
+  width: 670px !important;
+  padding-top: 116px;
+  @media screen and (max-width: 480px){
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px !important;
+  }
+  
+  }
+  .slider-forObjects .slick-track{
+    display: flex;
+  }

@@ -1,0 +1,91 @@
+.worth-bg {
+  background: $beige-500;
+  position: relative;
+  top: -289px;
+
+  @media screen and (max-width: 480px) {
+    top: -104px;
+    padding-bottom: 20px;
+  }
+}
+
+.worth {
+  color: $white;
+}
+
+.worth-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+.line-titleWorth {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 69px;
+  color: $white;
+  @media screen and (max-width: 480px) {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+.object-underlineWorth {
+  background: $dark-100;
+  width: 383px;
+  height: 4px;
+  @media screen and (max-width: 480px) {
+    width: 226px;
+  }
+}
+
+.worth-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(259px, 1fr));
+  margin-top: 40px;
+  gap: 45px;
+  margin-bottom: 60px;
+
+  @media screen and (max-width: 480px) {
+    margin-left: 25px;
+  }
+}
+
+.numbers {
+  margin-top: 84px;
+  @media screen and (max-width: 480px) {
+    margin-top: 14px;
+  }
+
+  &__img {
+    position: absolute;
+    transform: translateY(-60px);
+    height: 120px;
+    width: 100%;
+    @media screen and (max-width: 480px) {
+      width: 80%;
+    }
+  }
+  &__desc {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    position: relative;
+    z-index: 10;
+    width: 259px;
+    @media screen and (max-width: 480px) {
+      font-size: 18px;
+      line-height: 22px;
+      width: 178px;
+    }
+  }
+}
+.evenNumber {
+  @media screen and (max-width: 480px) {
+    position: relative;
+    right: -182px;
+  }
+}
